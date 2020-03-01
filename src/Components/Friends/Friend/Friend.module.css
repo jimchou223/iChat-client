@@ -1,0 +1,31 @@
+.Friend {
+    margin: 0px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.Friend:hover {
+    background-color: #669ad0;
+    
+}
+
+.Friend h2, .Friend p {
+    padding-left: 10px;
+}
+
+.Friend p {
+    font-size: 0.8em;
+    padding-top: 10px;
+}
+
+.Friend img{
+    height: 30px;
+}
+
+.Friend:active {
+    background-color: yellow;
+    
+}
+

@@ -1,0 +1,50 @@
+.NavigationItem {
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+
+}
+
+.NavigationItem a{
+    color: #8F5C2C;
+    text-decoration: none;
+    width:100%;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    color: #40A4C8;
+
+}
+
+@media (min-width: 500px) {
+    .NavigationItem {
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        /* align-items: center; */
+    }
+    .NavigationItem button {
+        width: auto;
+        height: 54px;
+        color: #000;
+        text-decoration: none;
+        border: none;
+        padding: 0px 10px;
+        /* border-bottom: 4px solid transparent; */
+        font-size: 1.5em;
+    }
+    
+    .NavigationItem button:hover,
+    .NavigationItem button:active,
+    .NavigationItem button.active {
+        background-color: #669ad0;
+        color: #FFF;
+    
+    }
+}

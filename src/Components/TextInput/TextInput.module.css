@@ -1,0 +1,28 @@
+.TextInput {
+    align-items: center;
+    /* position: fixed; */
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+}
+
+
+/* textarea {
+    min-width: 85%;
+    margin: 0;
+    padding: 0px;
+    height: 50px;
+}
+
+button {
+    margin-right: 0;
+    margin-left: auto;
+    width: 15%;
+    margin: 0;
+    padding: 0px;
+    height: 50px;
+} */
+    
+

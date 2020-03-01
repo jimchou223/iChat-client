@@ -1,0 +1,20 @@
+.Logo {
+    background-color: #FFF;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row
+}
+
+.Logo h2 {
+    height: 100%;
+    margin: 0 0 0 10px;
+    font-size: 2em;
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    height: 100%;
+}

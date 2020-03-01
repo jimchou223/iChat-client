@@ -1,0 +1,39 @@
+.Friends {
+  width: 25%;
+  border-right: navy 1px solid;
+}
+
+.Wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+
+.Board {
+  margin-left: auto;
+  background-color: lightblue;
+  padding: 10px;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.Board textarea {
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.Board input {
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #476b91;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: inherit;
+  /* margin-bottom:10px; */
+}

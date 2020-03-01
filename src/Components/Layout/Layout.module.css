@@ -1,0 +1,9 @@
+.Content {
+    /* display: flex; */
+    margin-top: 60px;
+}
+
+.Toolbar {
+    display: flex;
+    justify-content: flex-end;
+}

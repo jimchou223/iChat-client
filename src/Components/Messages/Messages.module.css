@@ -1,0 +1,15 @@
+.Messages {
+  margin-top: 0px;
+  height: 650px;
+  overflow: scroll;
+}
+
+.Send {
+  margin-left: 55%;
+}
+
+.Receive {
+  margin-left: 0%;
+}
+
+
