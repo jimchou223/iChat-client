@@ -13,6 +13,8 @@ import Friends from '../Friends/Friends'
 import axios from 'axios';
 import AddFriendPanel from '../AddFriendPanel/AddFriendPanel';
 
+const URL = "https://ichat-server.herokuapp.com"
+
 
 class layout extends Component {
     state = {
@@ -104,7 +106,7 @@ class layout extends Component {
     getMyFriendsHandler = () => {
         axios({
             method: 'post',
-            url: 'http://localhost:3000/findfriends',
+            url: URL + '/findfriends',
             data: {
                 username: this.state.currentUser
             }
@@ -132,7 +134,7 @@ class layout extends Component {
     getMessagesHandler = (id) => {
         axios({
             method: 'post',
-            url: 'http://localhost:3000/findmessages',
+            url: URL + '/findmessages',
             data: {
                 roomID: id
             }
@@ -149,7 +151,7 @@ class layout extends Component {
     sendMessagesHandler = (content) => {
         axios({
             method: 'post',
-            url: 'http://localhost:3000/addnewmessage',
+            url: URL + '/addnewmessage',
             data: {
                 roomID: this.state.currentRoomID,
                 sender: this.state.currentUser,
@@ -242,7 +244,7 @@ class layout extends Component {
     createNewChatroomHandler = (friendName) => {
         axios({
             method: 'post',
-            url: 'http://localhost:3000/addnewchatroom',
+            url: URL + '/addnewchatroom',
             data: {
                 "member": [this.state.currentUser, friendName]
             }
@@ -282,7 +284,7 @@ class layout extends Component {
     findAllUsersHandler = () => {
         axios({
             method: 'get',
-            url: 'http://localhost:3000/findallusers',
+            url: URL + '/findallusers',
 
         })
             .then((response) => {
