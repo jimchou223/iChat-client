@@ -40,7 +40,7 @@ class loginPanel extends Component {
                         <label htmlFor="password">Password: </label>
                         <input
                             // value={this.state.password}
-                            tpye="text"
+                            type="password"
                             name="password"
                             ref="password"
                             placeholder="password"/>
